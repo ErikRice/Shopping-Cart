@@ -158,7 +158,6 @@ const Products = () => {
           <h1>CheckOut </h1>
           <Button onClick={checkOut} >CheckOut $ {finalList().total}</Button>
           <div> {finalList().total > 0 && finalList().final} </div>
-          <div style={{}}>{checkOut()}</div>
         </Col>
       </Row>
       <Row>
